@@ -15,7 +15,7 @@ const AboutTwo = () => {
                             <div>
                                 <h1 className="title about__2_title">
                                     Agencies use various analytics tools to track and measure
-                                    performance of online marketing efforts.
+                                    performance of online marketing efforts.sssss
                                 </h1>
                             </div>
                         </div>

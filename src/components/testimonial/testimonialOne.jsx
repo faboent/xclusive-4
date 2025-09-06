@@ -16,7 +16,7 @@ const TestimonialOne = () => {
                 {/* title Start */}
                 <SlideDown className="testimonial__title">
                     <h1 className="title text-center">
-                        What customer say’s about Digiv to take their service
+                     Testimonials
                     </h1>
                 </SlideDown>
                 {/* title End */}
@@ -76,7 +76,7 @@ const TestimonialOne = () => {
                         </div>
                     </Swiper>
                 </SlideUp>
-             <VideoTestimonial/>
+             {/* <VideoTestimonial/> */}
             </div>
         </section>
 

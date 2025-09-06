@@ -14,19 +14,19 @@ const Home = () => {
             <HeroOne />
             <AboutOne />
             <ServiceOne />
-            <ProjectsOne isProjectUseCaseShow={true} />
+            {/* <ProjectsOne isProjectUseCaseShow={true} /> */}
             <section className="pricing">
                 <div className="container">
                     <SlideUp className="testimonial__title">
                         <h1 className="title text-center">
-                            Take a look the perfect pricing plan to get started
+                        Services Offered
                         </h1>
                     </SlideUp>
                     <PricingTable />
                 </div>
             </section>
             <TestimonialOne />
-            <HomeBlog className={'py__130'}/>
+            <HomeBlog />
         </>
     )
 }
