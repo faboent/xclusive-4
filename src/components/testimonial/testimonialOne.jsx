@@ -49,11 +49,7 @@ const TestimonialOne = () => {
                     >
                         {testimonialsOneData.map((testimonial, index) => (
                             <SwiperSlide key={index} className="slide">
-                                <div className="d-flex gap-2 star">
-                                    {Array.from({ length: testimonial.stars }).map((_, i) => (
-                                        <i key={i} className="bi bi-star-fill" />
-                                    ))}
-                                </div>
+                               
                                 <p className="review">{testimonial.review}</p>
                                 <div className="d-flex justify-content-between">
                                     <div className="d-flex gap-4 reviewer__info">

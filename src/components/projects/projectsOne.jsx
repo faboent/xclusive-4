@@ -7,37 +7,30 @@ import Link from 'next/link'
 
 const ProjectsOne = ({ isProjectUseCaseShow }) => {
     return (
-        <section className="projects py__130">
+        <section className="projects py-4">
             <div className="container">
                 {/* title Start */}
-                <SlideDown className="d-lg-flex justify-content-between align-items-center projects__title">
-                    <h1 className="title">Our latest work for our best customer</h1>
-                    <Link href="/projects" className="circle mt-5 mt-lg-0">
-                        <i className="fa-solid fa-arrow-right"></i>
-                        <span>View All Project</span>
-                    </Link>
-                </SlideDown>
+                <SlideUp className="projects__title">
+                    <div className="my-3 d-flex flex-column align-items-center justify-content-center text-center">
+                        <h1 className="title" style={{ color: '#b273ff' }}>Tagline</h1>
+                        <p className="mt-3" style={{ color: '#ff4d4f', fontSize: '18px' }}>Empowering entrepreneurs to build brands they love</p>
+                        <h3 className="mt-5" style={{ fontWeight: 700, color: 'white' }}>Content Hub</h3>
+                        <ul className="d-flex justify-content-center gap-3 footer__socal mt-4">
+                            <li>
+                                <Link href={"#"}>
+                                    <i className="fa-brands fa-instagram" />
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={"#"}>
+                                    <i className="fa-brands fa-youtube" />
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                </SlideUp>
                 {/* title End */}
-                <div className="projects__wapper">
-                    {
-                        projectsOneData.map(({ categories, id, imgSrc, title }) => {
-                            return (
-                                <SlideUp delay={id} key={id} className="projects__wapper_card">
-                                    <Link href="/project-details"><img src={imgSrc} alt="img" /></Link>
-                                    <div>
-                                        <Link href="/project-details" className="prj__title t__28">{title}</Link>
-                                        <p className="project__group">{categories}</p>
-                                    </div>
-                                </SlideUp>
-                            )
-                        })
-                    }
-
-                </div>
-                {
-                    isProjectUseCaseShow &&
-                    <ProjectsUseCase />
-                }
+               
             </div>
         </section>
 

@@ -102,6 +102,16 @@ const ServiceOne = () => {
                                                 <span className="opacity-75">invitation</span>
                                             )}
                                         </div>
+
+                                        <p className="text-center mt-2 mb-3" style={{ fontSize: '13px', opacity: 0.85 }}>
+                                            No description available
+                                        </p>
+
+                                        <div className="d-flex justify-content-center">
+                                            <Link href="/service-details" className="btn btn-light px-4 rounded-pill" style={{ background: '#f2d381', color: '#1a1a1a' }}>
+                                                View Event
+                                            </Link>
+                                        </div>
                                     </div>
                                 </div>
                             </SlideUp>

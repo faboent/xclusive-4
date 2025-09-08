@@ -14,7 +14,7 @@ const Home = () => {
             <HeroOne />
             <AboutOne />
             <ServiceOne />
-            {/* <ProjectsOne isProjectUseCaseShow={true} /> */}
+            <ProjectsOne isProjectUseCaseShow={true} />
             <section className="pricing">
                 <div className="container">
                     <SlideUp className="testimonial__title">

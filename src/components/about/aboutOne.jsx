@@ -10,32 +10,22 @@ const AboutOne = () => {
         {
             id: 1,
             imgSrc: "/images/about/Rectangle105.png",
-            title: "Digital Marketing Strategy",
-            category: "Marketing"
         },
         {
             id: 2,
             imgSrc: "/images/about/Rectangle105.png",
-            title: "Content Creation",
-            category: "Design"
         },
         {
             id: 3,
             imgSrc: "/images/about/Rectangle105.png",
-            title: "Social Media Campaign",
-            category: "Marketing"
         },
         {
             id: 4,
             imgSrc: "/images/about/Rectangle105.png",
-            title: "Brand Development",
-            category: "Branding"
         },
         {
             id: 5,
             imgSrc: "/images/about/Rectangle105.png",
-            title: "Digital Analytics",
-            category: "Analytics"
         }
     ];
 

@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <header className="header header__1">
-            <TopHeader />
+            {/* <TopHeader /> */}
             <div className="header__bottom">
                 <div className="container">
                     <div className="d-flex align-items-center justify-content-between">
@@ -19,13 +19,13 @@ const Header = () => {
                                 <h5>Digiv</h5>
                             </Link>
                         </div>
-                        <Navbar activeNavbar={activeNavbar}/>
+                        {/* <Navbar activeNavbar={activeNavbar}/>
                         <div className="d-xl-block d-none">
                             <Link href={"/contact"} className="common__btn">
                                 <span> Get Started Now</span>
                                 <img src="/icons/arrow-up-right.svg" alt="img" />
                             </Link>
-                        </div>
+                        </div> */}
                         <div className="menu__icon d-block d-xl-none" onClick={()=>setActiveNavebar(!activeNavbar)}>
                             <i className="bi bi-list" />
                         </div>
